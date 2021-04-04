@@ -15,8 +15,8 @@ class MyApp extends StatelessWidget {
       title: 'Kodeversitas',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.lightBlue,
-        fontFamily: 'Nunito',
+        primarySwatch: Colors.lightGreen,
+        fontFamily: 'Montserrat',
       ),
       home: LoginPage(),
       routes: routes,
