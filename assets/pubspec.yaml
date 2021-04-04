@@ -1,9 +1,0 @@
-name: my_app
-flutter:
-  uses-material-design: true
-  assets:
-    - ./logo.png
-  fonts:
-      - family: Montserrat
-        fonts:
-          - asset: assets/Montserrat.ttf
