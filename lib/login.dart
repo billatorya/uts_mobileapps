@@ -44,13 +44,13 @@ class _LoginPageState extends State<LoginPage> {
           padding: EdgeInsets.symmetric(vertical: 16.0),
           child: Material(
             borderRadius: BorderRadius.circular(30.0),
-            shadowColor: Colors.lightBlueAccent.shade100,
+            shadowColor: Colors.lightGreenAccent.shade100,
             elevation: 5.0,
             child: MaterialButton(
               minWidth: 200.0,
               height: 42.0,
               onPressed: () {},
-              color: Colors.lightBlueAccent,
+              color: Colors.lightGreenAccent,
               child: Text('Log In', style: TextStyle(color: Colors.white)),
             ),
           ),
@@ -65,7 +65,7 @@ class _LoginPageState extends State<LoginPage> {
         );
     
         return Scaffold(
-          backgroundColor: Colors.white,
+          backgroundColor: Colors.greenAccent.shade700,
           body: Center(
             child: ListView(
               shrinkWrap: true,
